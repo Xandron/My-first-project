@@ -42,7 +42,7 @@ header {
     color: #fff;
 }
 .container {
-    height: 820px;
+    height: 435px;
     width: 100%;
     background: #3f3f3f;
 }
@@ -80,24 +80,45 @@ header {
     color: #ffffff;
     padding-top: 5px;
     font-size: 18px;
-    }
-.button i{
-    float: right;
-    font-size: 40px;
-    padding-top: 40px;
-    padding-right: 10px;
-    }
-.button a{
-    color: #ffffff;
 }
-.button a:hover{
-    color: #dd3f19;
+
+.gitlogo {
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 200px;
+    width: 310px;
 }
-.slider {
-    height: 511px;
+.info {
     width: 940px;
+    height: 100%;
     margin: 0 auto;
 }
+.info h1 {
+    text-align: center;
+    font-size: 32px;
+}
+.info p {
+    text-align: justify;
+    font-size: 20px;
+}
+.blocktext{
+    height: 100%;
+    width: 940px;
+    margin: 0 auto;
+    border: 2px solid grey;
+    margin-bottom: 25px;
+}
+.infoleft {
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+.inforight img{
+    width: 640px;
+    height: 100%;
+    float: left;
+}
+
 .maincont {
     height: 100%;
     width: 100%;
