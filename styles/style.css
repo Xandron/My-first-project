@@ -21,11 +21,6 @@ header {
     float: left;
     margin-top: 40px;
 }
-.logo .o{
-    position: absolute;
-    left: 280px;
-    top: 36px;
-}
 .nav {
     float: right;
     margin-top: 40px;
@@ -107,6 +102,7 @@ header {
     margin: 0 auto;
     border: 2px solid grey;
     margin-bottom: 25px;
+    padding-bottom: 20px;
 }
 .infoleft {
     width: 300px;
@@ -193,16 +189,33 @@ footer {
     font-size: 18px;
     color: #595a5f;
     padding-top: 26px;
+    padding-bottom: 50px;
 }
 .share {
+    background: url(../maket/Background.png) no-repeat ;
     margin: 0 auto;
     width: 263px;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    height: 40px;
+
+
+
+}
+.share ul li{
+    padding-top: 10px;
+    margin-left: 16px;
+    float: left;
+}
+.share a{
+    color: #fff;
+    text-decoration: none;
+}
+.share a:hover{
+    color: #dd3f19;
 }
 .under {
     height: 10px;
     width: 100%;
     background-color: #332527;
     padding-top: 50px;
+    margin-top: 50px;
 }
